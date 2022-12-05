@@ -22,4 +22,5 @@ pub use self::generic::*;
 
 #[cfg(feature = "ch32v30x")]
 pub mod ch32v30x;
-
+#[cfg(feature = "ch32v30x")]
+pub use ch32v30x::interrupt;
